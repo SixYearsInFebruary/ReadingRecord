@@ -1,0 +1,7 @@
+Java的I/O操作类在包java.io下：
+	基于字节操作的I/O接口：InputStream和OutputStream。
+	基于字符操作的I/O接口：Writer和Reader。
+	基于磁盘操作的I/O接口：File。
+	基于网络操作的I/O接口：Socket。
+前两组主要是传输数据的数据格式，后两组主要是传输数据的方式。
+不管是磁盘还是网络传输，最小的存储单元都是字节，而不是自负，所以I/O操作的都是字节而不是自负。
